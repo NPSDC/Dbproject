@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script src="jqueryCalendar/jquery-1.6.2.min.js"></script>
+<script src="jqueryCalendar/jquery-ui-1.8.15.custom.min.js"></script>
+<link rel="stylesheet" href="jqueryCalendar/jqueryCalendar.css">
+	<title>Employees</title>
+<script>
+                jQuery(function() {
+                                jQuery( "#inf_custom_someDateField" ).datepicker();
+                });
+                </script>
+</head>
+<body>
+<h1>Enter Employees</h1>
+<form action="employee.php" method="POST">
+  <table>
+  	<tr>
+  		<td>
+  		Password
+		</td>
+		<td>
+  		<input type="password" name="password" required >
+  		</td>
+  	</tr>
+  	<tr>
+  		<td>
+  		Retype Password
+  		</td>
+  		<td>
+  		<input type="password" name="repassword" required >
+  		</td>
+  	</tr>
+    <tr>
+      <td>
+      Sex
+      </td>
+      <td>
+       <input type="radio" name="sex" value="male">M
+      <input type="radio" name="sex" value="female">F
+  
+      </td>
+    </tr>
+    <tr>
+      <td>
+      Date of birth
+      </td>
+      <td>
+       <input id="inf_custom_someDateField" name="dob">
+      </td>
+    </tr>
+    <tr>
+      <td>
+      Email
+      </td>
+      <td>
+      <input type="email" name="email" required >
+      </td>
+    </tr>
+    <tr>
+      <td>
+      Email
+      </td>
+      <td>
+      <input type="email" name="email" required >
+      </td>
+    </tr>
+    <tr>
+      <td>
+      Email
+      </td>
+      <td>
+      <input type="email" name="email" required >
+      </td>
+    </tr>
+    <tr>
+      <td>
+      Email
+      </td>
+      <td>
+      <input type="email" name="email" required >
+      </td>
+    </tr>
+      <td>
+      Email
+      </td>
+      <td>
+      <input type="email" name="email" required >
+      </td>
+    </tr>
+    <tr>
+      <td>
+      Contact Number
+      </td>
+      <td>
+      <input type="tel" name="contact" required >
+      </td>
+    </tr>
+    <tr>
+      <td>
+      First Name
+      </td>
+      <td>
+      <input type="text" name="firstname" required >
+      </td>
+    </tr>
+    <tr>
+      <td>
+      Middle Name
+      </td>
+      <td>
+      <input type="text" name="middlename" required>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      Last Name
+      </td>
+      <td>
+      <input type="text" name="lastname" required>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      House No
+      </td>
+      <td>
+      <input type="text" name="house" required>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      Street
+      </td>
+      <td>
+      <input type="text" name="street" required>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      City
+      </td>
+      <td>
+      <input type="text" name="city" required>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      State
+      </td>
+      <td>
+      <input type="text" name="state" required>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      Country
+      </td>
+      <td>
+      <input type="text" name="country" required>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      Pin
+      </td>
+      <td>
+      <input type="text" name="pin" required	>
+      </td>
+    </tr>
+    
+  	<tr>
+    	<td>
+  		<input type="submit" value="Submit">
+  		</td>
+  	</tr>
+  </table>	
+</form>
+</body>
+</html>
