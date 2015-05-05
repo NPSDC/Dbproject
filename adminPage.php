@@ -30,7 +30,7 @@
 
       // CONNECTING TO THE DATABASE
       try{
-        $db = new PDO("mysql:host=localhost;dbname=KINDLE","root","a1234");
+        $db = new PDO("mysql:host=localhost;dbname=KINDLE","root","123");
         $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
       }
       catch (PDOException $e) {

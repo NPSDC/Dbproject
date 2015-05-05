@@ -208,7 +208,7 @@ if ($uploadOk == 0) {
   }
   try
   {
-    $db = new PDO("mysql:host=localhost;dbname=KINDLE","root","99isthebest");
+    $db = new PDO("mysql:host=localhost;dbname=KINDLE","root","123");
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
   }
 catch (PDOException $e) {

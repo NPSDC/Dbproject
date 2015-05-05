@@ -85,7 +85,7 @@ ob_start();
       $username=$_SESSION["username"];
               try
               {
-                 $db = new PDO("mysql:host=localhost;dbname=KINDLE", "root", "99isthebest");
+                 $db = new PDO("mysql:host=localhost;dbname=KINDLE", "root", "123");
 
               }
               catch(PDOException $e) {
